@@ -1,0 +1,67 @@
+	/* Add this CSS to your existing style.css */
+	/* Animated Background */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background: linear-gradient(45deg, #f06, #9f6) 0% 0% / 400% 400%;
+	animation: gradientAnimation 15s ease infinite;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Main Container Styles */
+.container {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin-top: 40px;
+}
+
+h1 {
+	color: #ffffff;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #2574A9;
+}
+
+/* Code Element Styles */
+code {
+	font-family: monospace;
+	padding: 4px 8px;
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+/* Footer Styles */
+.footer {
+	margin-top: 40px;
+	color: #ffffff;
+}
